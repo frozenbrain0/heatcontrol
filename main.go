@@ -24,7 +24,7 @@ func main() {
 }
 
 func printHelp() {
-	fmt.Println("heatcontrol v1.1")
+	fmt.Println("heatcontrol v1.2")
 	fmt.Println()
 	fmt.Println("   list-profiles          - list all performance-profiles")
 	fmt.Println("   set-profile <profile>  - set performance-profil")
