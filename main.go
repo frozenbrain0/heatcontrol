@@ -53,6 +53,7 @@ func setAcpiProfile() { //validates the given profile and writes the string to /
 		os.Exit(2)
 	}
 	platformProfilesString := string(platformProfilesBytes)
+	platformProfilesString = strings.ReplaceAll(platformProfilesString, "\n", "") // Remove new line for check
 	platformProfiles := strings.Split(platformProfilesString, " ")
 	for c := range platformProfiles {
 		if os.Args[2] == platformProfiles[c] {
