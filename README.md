@@ -12,9 +12,9 @@ Download one of the binaries from the releases, rename it to heatctl (or whateve
 
 Alternatively, you can install Go and compile the project yourself by running
 
-`
+```
 $ git clone https://github.com/frozenbrain0/heatcontrol; cd heatcontrol; go build
-`
+```
 
 ### Usage
 `$ heatctl list-profiles` - list available profiles
